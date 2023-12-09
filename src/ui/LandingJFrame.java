@@ -22,7 +22,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author vedant
+ * @author apoorvdhaygude
  */
 public class LandingJFrame extends javax.swing.JFrame {
 
