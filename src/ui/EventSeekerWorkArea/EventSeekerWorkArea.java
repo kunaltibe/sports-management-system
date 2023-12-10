@@ -27,7 +27,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vidis
+ * @author kunaltibe
  */
 public class EventSeekerWorkArea extends javax.swing.JPanel {
 
