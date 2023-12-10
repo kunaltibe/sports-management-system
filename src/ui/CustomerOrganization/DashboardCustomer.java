@@ -6,7 +6,7 @@
 package ui.CustomerOrganization;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
 import Project.Organization.EventMakerOrganization;
@@ -14,10 +14,10 @@ import Project.Organization.Organization;
 import Project.Organization.CustomerOrganization;
 import business.UserAccount.UserAccount;
 import business.Customer.Customer;
-import Project.WorkQueue.SchedulerWorkRequest;
-import Project.WorkQueue.PlayerWorkRequest;
-import Project.WorkQueue.WorkRequestQueue;
-import Project.WorkQueue.WorkRequest;
+import business.WorkQueue.SchedulerWorkRequest;
+import business.WorkQueue.PlayerWorkRequest;
+import business.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

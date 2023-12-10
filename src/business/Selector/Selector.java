@@ -5,7 +5,7 @@
  */
 package business.Selector;
 
-import Project.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequestQueue;
 
 /**
  *

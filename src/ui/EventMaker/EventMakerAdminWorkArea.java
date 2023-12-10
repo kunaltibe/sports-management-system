@@ -5,7 +5,7 @@
  */
 package ui.EventMaker;
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import business.UserAccount.UserAccount;

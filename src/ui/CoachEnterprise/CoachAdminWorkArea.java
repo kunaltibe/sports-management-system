@@ -6,7 +6,7 @@
 package ui.CoachEnterprise;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;

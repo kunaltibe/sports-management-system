@@ -5,12 +5,12 @@
  */
 package ui;
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.DB4o.DB4OUtil;
 import Project.Enterprise.Enterprise;
 import Project.Network.Network;
 import Project.Organization.Organization;
-import Project.SystemConfiguration;
+import business.Business.SystemConfiguration;
 import business.UserAccount.UserAccount;
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.FlatDarkLaf;

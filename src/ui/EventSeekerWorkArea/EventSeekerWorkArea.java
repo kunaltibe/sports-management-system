@@ -6,13 +6,13 @@
 package ui.EventSeekerWorkArea;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
 import Project.Organization.Organization;
 import business.UserAccount.UserAccount;
-import Project.WorkQueue.PlayerWorkRequest;
-import Project.WorkQueue.WorkRequest;
+import business.WorkQueue.PlayerWorkRequest;
+import business.WorkQueue.WorkRequest;
 import googlemaps.GoogleMapsViewer;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

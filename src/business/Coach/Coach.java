@@ -5,7 +5,7 @@
  */
 package business.Coach;
 
-import Project.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequestQueue;
 
 /**
  *

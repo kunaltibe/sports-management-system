@@ -5,7 +5,7 @@
  */
 package business.Provider;
 
-import Project.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequestQueue;
 
 /**
  *

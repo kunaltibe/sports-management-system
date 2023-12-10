@@ -6,7 +6,7 @@
 package ui.CoachEnterprise;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;

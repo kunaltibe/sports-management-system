@@ -5,15 +5,15 @@
  */
 package ui.EventMakerWorkArea;
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
 import Project.Organization.EventMakerOrganization;
 import Project.Organization.Organization;
 import business.UserAccount.UserAccount;
-import Project.WorkQueue.PlayerWorkRequest;
-import Project.WorkQueue.WorkRequestQueue;
-import Project.WorkQueue.WorkRequest;
+import business.WorkQueue.PlayerWorkRequest;
+import business.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequest;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

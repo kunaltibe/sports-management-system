@@ -5,13 +5,13 @@
  */
 package ui.PhysicianWorkArea;
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import Project.Organization.PhysicianOrganization;
 import Project.Organization.Organization;
 import business.UserAccount.UserAccount;
-import Project.WorkQueue.PlayerWorkRequest;
-import Project.WorkQueue.WorkRequest;
+import business.WorkQueue.PlayerWorkRequest;
+import business.WorkQueue.WorkRequest;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

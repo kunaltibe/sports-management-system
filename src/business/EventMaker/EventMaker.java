@@ -5,7 +5,7 @@
  */
 package business.EventMaker;
 
-import Project.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequestQueue;
 
 /**
  *
