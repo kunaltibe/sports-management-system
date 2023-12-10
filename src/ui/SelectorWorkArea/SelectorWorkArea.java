@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vidis
+ * @author kunaltibe
  */
 public class SelectorWorkArea extends javax.swing.JPanel {
     private JPanel userProcessContainer;
