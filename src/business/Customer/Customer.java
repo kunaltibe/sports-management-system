@@ -9,7 +9,7 @@ import business.WorkQueue.WorkRequestQueue;
 
 /**
  *
- * @author prath
+ * @author sangram
  */
 public class Customer {
     private String volunteerName;
