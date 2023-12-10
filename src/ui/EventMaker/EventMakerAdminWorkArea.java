@@ -8,7 +8,7 @@ package ui.EventMaker;
 import Project.MainSystem;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 

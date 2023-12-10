@@ -10,7 +10,7 @@ import Project.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
 import Project.Organization.EventMakerOrganization;
 import Project.Organization.Organization;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import Project.WorkQueue.PlayerWorkRequest;
 import Project.WorkQueue.WorkRequestQueue;
 import Project.WorkQueue.WorkRequest;

@@ -14,7 +14,7 @@ import Project.Organization.ProviderOrganization;
 import Project.Provider.Provider;
 import Project.Role.ProviderManagerRole;
 import Project.Role.Role;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

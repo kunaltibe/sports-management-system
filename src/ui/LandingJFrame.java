@@ -11,7 +11,7 @@ import Project.Enterprise.Enterprise;
 import Project.Network.Network;
 import Project.Organization.Organization;
 import Project.SystemConfiguration;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatIntelliJLaf;

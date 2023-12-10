@@ -16,7 +16,7 @@ import Project.Role.EventMakerRole;
 import Project.Organization.CustomerOrganization;
 import Project.Role.Role;
 import Project.Role.CustomerRole;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import business.Customer.Customer;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;

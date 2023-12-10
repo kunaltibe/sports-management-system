@@ -14,7 +14,7 @@ import Project.Organization.PlayerOrganization;
 import Project.Role.PlayerRole;
 import Project.Role.Role;
 import Project.Role.CustomerRole;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import business.Customer.Customer;
 import business.Player.Player;
 import java.awt.CardLayout;

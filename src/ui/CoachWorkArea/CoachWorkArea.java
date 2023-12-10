@@ -9,7 +9,7 @@ import Project.MainSystem;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.CoachOrganization;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import Project.WorkQueue.PlayerWorkRequest;
 import Project.WorkQueue.WorkRequest;
 import javax.swing.JOptionPane;

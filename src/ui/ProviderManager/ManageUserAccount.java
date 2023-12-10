@@ -11,7 +11,7 @@ import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Role.Role;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import Project.Organization.ProviderOrganization;
 import Project.Provider.Provider;
 import Project.Role.ProviderRole;

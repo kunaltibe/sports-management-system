@@ -12,7 +12,7 @@ import Project.Organization.Organization;
 import Project.Organization.ProviderOrganization;
 import Project.Provider.Item;
 import Project.Provider.Provider;
-import Project.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 import Project.WorkQueue.ProviderWorkRequest;
 import Project.WorkQueue.WorkRequestQueue;
 import Project.WorkQueue.WorkRequest;
