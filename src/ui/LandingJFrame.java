@@ -7,9 +7,9 @@ package ui;
 
 import business.Business.MainSystem;
 import business.DB4o.DB4OUtil;
-import Project.Enterprise.Enterprise;
-import Project.Network.Network;
-import Project.Organization.Organization;
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.Organization;
 import business.Business.SystemConfiguration;
 import business.UserAccount.UserAccount;
 import com.formdev.flatlaf.FlatDarculaLaf;

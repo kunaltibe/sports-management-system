@@ -5,7 +5,7 @@
  */
 package ui.SystemAdmin;
 
-import business.MainSystem;
+import business.Business.MainSystem;
 import business.Network.Network;
 import java.awt.CardLayout;
 import java.awt.Component;

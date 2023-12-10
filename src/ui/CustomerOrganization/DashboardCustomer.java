@@ -7,11 +7,11 @@ package ui.CustomerOrganization;
 
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
+import business.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
-import Project.Organization.EventMakerOrganization;
-import Project.Organization.Organization;
-import Project.Organization.CustomerOrganization;
+import business.Organization.EventMakerOrganization;
+import business.Organization.Organization;
+import business.Organization.CustomerOrganization;
 import business.UserAccount.UserAccount;
 import business.Customer.Customer;
 import business.WorkQueue.SchedulerWorkRequest;

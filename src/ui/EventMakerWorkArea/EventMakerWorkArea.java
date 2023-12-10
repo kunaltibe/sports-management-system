@@ -6,10 +6,10 @@
 package ui.EventMakerWorkArea;
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
+import business.Enterprise.Enterprise;
 import business.EventMaker.EventMaker;
-import Project.Organization.EventMakerOrganization;
-import Project.Organization.Organization;
+import business.Organization.EventMakerOrganization;
+import business.Organization.Organization;
 import business.UserAccount.UserAccount;
 import business.WorkQueue.PlayerWorkRequest;
 import business.WorkQueue.WorkRequestQueue;

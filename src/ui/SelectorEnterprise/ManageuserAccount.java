@@ -5,7 +5,7 @@
  */
 package ui.SelectorEnterprise;
 
-import business.MainSystem;
+import business.Business.MainSystem;
 import business.Person.Person;
 import business.Enterprise.Enterprise;
 import business.Organization.SelectorOrganization;

@@ -6,9 +6,9 @@
 package ui.PhysicianWorkArea;
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
-import Project.Organization.PhysicianOrganization;
-import Project.Organization.Organization;
+import business.Enterprise.Enterprise;
+import business.Organization.PhysicianOrganization;
+import business.Organization.Organization;
 import business.UserAccount.UserAccount;
 import business.WorkQueue.PlayerWorkRequest;
 import business.WorkQueue.WorkRequest;

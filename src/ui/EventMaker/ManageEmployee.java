@@ -7,10 +7,10 @@ package ui.EventMaker;
 
 
 import business.Person.Person;
-import Project.Organization.Organization;
-import Project.Organization.EventMakerOrganization;
-import Project.Organization.OrganizationDirectory;
-import Project.Organization.OrganizationDirectory;
+import business.Organization.Organization;
+import business.Organization.EventMakerOrganization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.OrganizationDirectory;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

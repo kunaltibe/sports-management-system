@@ -8,12 +8,12 @@ package ui.CommunityEnterprise;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.EventMakerOrganization;
-import Project.Organization.Organization;
-import Project.Organization.PlayerOrganization;
-import Project.Organization.CustomerOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.EventMakerOrganization;
+import business.Organization.Organization;
+import business.Organization.PlayerOrganization;
+import business.Organization.CustomerOrganization;
 import business.Role.Role;
 import business.Role.EventMakerAdminRole;
 import business.Role.PlayerAdminRole;

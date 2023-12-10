@@ -6,7 +6,7 @@
 package ui.SelectorWorkArea;
 
 
-import business.MainSystem;
+import business.Business.MainSystem;
 import business.Enterprise.Enterprise;
 import business.Organization.SelectorOrganization;
 import business.Organization.Organization;

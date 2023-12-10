@@ -7,9 +7,9 @@ package ui.EventSeeker;
 
 
 import business.Person.Person;
-import Project.Organization.Organization;
-import Project.Organization.OrganizationDirectory;
-import Project.Organization.PlayerOrganization;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.PlayerOrganization;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

@@ -8,11 +8,11 @@ package ui.CoachEnterprise;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
 import business.Role.Role;
 import business.UserAccount.UserAccount;
-import Project.Organization.CoachOrganization;
+import business.Organization.CoachOrganization;
 import business.Role.CoachRole;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;

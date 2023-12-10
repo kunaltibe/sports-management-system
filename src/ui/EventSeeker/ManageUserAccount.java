@@ -8,9 +8,9 @@ package ui.EventSeeker;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.PlayerOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.PlayerOrganization;
 import business.Role.PlayerRole;
 import business.Role.Role;
 import business.Role.CustomerRole;

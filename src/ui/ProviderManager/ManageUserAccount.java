@@ -8,11 +8,11 @@ package ui.ProviderManager;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
 import business.Role.Role;
 import business.UserAccount.UserAccount;
-import Project.Organization.ProviderOrganization;
+import business.Organization.ProviderOrganization;
 import business.Provider.Provider;
 import business.Role.ProviderRole;
 import java.awt.CardLayout;

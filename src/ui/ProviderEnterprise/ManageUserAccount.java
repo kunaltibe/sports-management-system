@@ -8,9 +8,9 @@ package ui.ProviderEnterprise;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.ProviderOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.ProviderOrganization;
 import business.Provider.Provider;
 import business.Role.ProviderManagerRole;
 import business.Role.Role;

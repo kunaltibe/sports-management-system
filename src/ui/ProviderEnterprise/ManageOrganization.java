@@ -6,8 +6,8 @@
 package ui.ProviderEnterprise;
 
 
-import Project.Organization.Organization;
-import Project.Organization.OrganizationDirectory;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

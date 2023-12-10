@@ -7,9 +7,9 @@ package ui.CustomerOrganization;
 
 
 import business.Person.Person;
-import Project.Organization.Organization;
-import Project.Organization.OrganizationDirectory;
-import Project.Organization.CustomerOrganization;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.CustomerOrganization;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

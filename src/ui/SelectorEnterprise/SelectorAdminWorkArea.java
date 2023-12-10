@@ -6,7 +6,7 @@
 package ui.SelectorEnterprise;
 
 
-import business.MainSystem;
+import business.Business.MainSystem;
 import business.Enterprise.Enterprise;
 import ui.SelectorEnterprise.ManageEmployee;
 import ui.SelectorEnterprise.ManageOrganization;

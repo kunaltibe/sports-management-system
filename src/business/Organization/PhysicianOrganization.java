@@ -12,7 +12,7 @@ import java.util.HashSet;
 
 /**
  *
- * @author prath
+ * @author apoorvdhaygude
  */
 public class PhysicianOrganization extends Organization{
     PhysicianDirectory doctorList;

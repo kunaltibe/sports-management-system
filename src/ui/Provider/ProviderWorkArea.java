@@ -7,9 +7,9 @@ package ui.Provider;
 
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.ProviderOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.ProviderOrganization;
 import business.Provider.Item;
 import business.Provider.Provider;
 import business.UserAccount.UserAccount;

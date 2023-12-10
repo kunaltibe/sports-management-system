@@ -7,7 +7,7 @@ package ui.CommunityEnterprise;
 
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
+import business.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 

@@ -6,7 +6,7 @@
 package ui.EventSeeker;
 
 
-import Project.Enterprise.Enterprise;
+import business.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 

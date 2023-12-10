@@ -8,9 +8,9 @@ package ui.PhysicianEnterprise;
 
 import business.Business.MainSystem;
 import business.Person.Person;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.PhysicianOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.PhysicianOrganization;
 import business.Role.Role;
 import business.Role.PhysicianRole;
 import business.UserAccount.UserAccount;

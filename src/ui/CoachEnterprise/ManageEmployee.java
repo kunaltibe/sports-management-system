@@ -7,9 +7,9 @@ package ui.CoachEnterprise;
 
 
 import business.Person.Person;
-import Project.Organization.Organization;
-import Project.Organization.OrganizationDirectory;
-import Project.Organization.CoachOrganization;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.CoachOrganization;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

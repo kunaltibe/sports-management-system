@@ -11,7 +11,7 @@ import business.Customer.CustomerDirectory;
 import java.util.HashSet;
 
 /**
- @author prath
+ @author apoorvdhaygude
  */
 public class CustomerOrganization extends Organization{
 

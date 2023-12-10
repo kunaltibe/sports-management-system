@@ -6,9 +6,9 @@
 package ui.CoachWorkArea;
 
 import business.Business.MainSystem;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.Organization.CoachOrganization;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.CoachOrganization;
 import business.UserAccount.UserAccount;
 import business.WorkQueue.PlayerWorkRequest;
 import business.WorkQueue.WorkRequest;

@@ -6,7 +6,7 @@
 package ui.SchedulerEnterprise;
 
 
-import business.MainSystem;
+import business.Business.MainSystem;
 import business.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;

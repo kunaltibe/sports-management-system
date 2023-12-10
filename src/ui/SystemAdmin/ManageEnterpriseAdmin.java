@@ -4,24 +4,8 @@
  * and open the template in the editor.
  */
 package ui.SystemAdmin;
-;
-import business.MainSystem;
-import business.Person.Person;
-import business.Enterprise.Enterprise;
-import business.Network.Network;
-import business.Role.CommunityAdminRole;
-import business.Role.PhysicianAdminRole;
-import business.Role.SelectorAdminRole;
-import business.Role.SchedulerAdminRole;
-import business.Role.CoachAdminRole;
-import business.Role.ProviderAdminRole;
-import business.UserAccount.UserAccount;
-import java.awt.CardLayout;
-import java.awt.Component;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.table.DefaultTableModel;
-import business.MainSystem;
+
+import business.Business.MainSystem;
 import business.Person.Person;
 import business.Enterprise.Enterprise;
 import business.Network.Network;
