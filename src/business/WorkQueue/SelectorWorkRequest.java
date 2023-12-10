@@ -7,7 +7,7 @@ package business.WorkQueue;
 
 /**
  *
- * @author prath
+ * @author sangram
  */
 public class SelectorWorkRequest extends WorkRequest{
     private String description;

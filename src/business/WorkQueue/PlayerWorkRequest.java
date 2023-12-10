@@ -7,7 +7,7 @@ package business.WorkQueue;
 
 /**
  *
- * @author prath
+ * @author sangram
  */
 public class PlayerWorkRequest extends WorkRequest{
     private String Country;
