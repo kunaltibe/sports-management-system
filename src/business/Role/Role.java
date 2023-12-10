@@ -5,10 +5,10 @@
  */
 package business.Role;
 
-import Project.MainSystem;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.UserAccount.UserAccount;
+import business.MainSystem;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
 import javax.swing.JPanel;
 
 /**
