@@ -5,9 +5,9 @@
  */
 package business.UserAccount;
 
-import Project.Person.Person;
-import Project.Role.Role;
-import Project.WorkQueue.WorkRequestQueue;
+import business.Person.Person;
+import business.Role.Role;
+import business.WorkQueue.WorkRequestQueue;
 
 /**
  *
