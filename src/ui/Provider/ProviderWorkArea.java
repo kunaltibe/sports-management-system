@@ -6,16 +6,16 @@
 package ui.Provider;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.ProviderOrganization;
-import Project.Provider.Item;
-import Project.Provider.Provider;
+import business.Provider.Item;
+import business.Provider.Provider;
 import business.UserAccount.UserAccount;
-import Project.WorkQueue.ProviderWorkRequest;
-import Project.WorkQueue.WorkRequestQueue;
-import Project.WorkQueue.WorkRequest;
+import business.WorkQueue.ProviderWorkRequest;
+import business.WorkQueue.WorkRequestQueue;
+import business.WorkQueue.WorkRequest;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

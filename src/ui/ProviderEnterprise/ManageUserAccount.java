@@ -6,12 +6,12 @@
 package ui.ProviderEnterprise;
 
 
-import Project.MainSystem;
+import business.Business.MainSystem;
 import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.ProviderOrganization;
-import Project.Provider.Provider;
+import business.Provider.Provider;
 import business.Role.ProviderManagerRole;
 import business.Role.Role;
 import business.UserAccount.UserAccount;

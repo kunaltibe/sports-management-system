@@ -6,7 +6,7 @@
 package ui;
 
 import business.Business.MainSystem;
-import Project.DB4o.DB4OUtil;
+import business.DB4o.DB4OUtil;
 import Project.Enterprise.Enterprise;
 import Project.Network.Network;
 import Project.Organization.Organization;
