@@ -9,7 +9,7 @@ import business.WorkQueue.WorkRequestQueue;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class Selector {
     private String fireManName;
