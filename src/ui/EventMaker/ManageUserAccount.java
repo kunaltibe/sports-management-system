@@ -10,7 +10,7 @@ import Project.MainSystem;
 import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
-import Project.EventMaker.EventMaker;
+import business.EventMaker.EventMaker;
 import Project.Organization.EventMakerOrganization;
 import Project.Role.EventMakerRole;
 import Project.Organization.CustomerOrganization;

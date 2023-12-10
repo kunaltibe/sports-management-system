@@ -8,7 +8,7 @@ package ui.CustomerOrganization;
 
 import Project.MainSystem;
 import Project.Enterprise.Enterprise;
-import Project.EventMaker.EventMaker;
+import business.EventMaker.EventMaker;
 import Project.Organization.EventMakerOrganization;
 import Project.Organization.Organization;
 import Project.Organization.CustomerOrganization;
