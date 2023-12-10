@@ -6,7 +6,7 @@
 package ui.ProviderEnterprise;
 
 
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Organization.Organization;
 import Project.Organization.OrganizationDirectory;
 import java.awt.CardLayout;

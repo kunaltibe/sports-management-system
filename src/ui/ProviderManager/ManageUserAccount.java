@@ -7,7 +7,7 @@ package ui.ProviderManager;
 
 
 import Project.MainSystem;
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Role.Role;

@@ -7,7 +7,7 @@ package ui.EventSeeker;
 
 
 import Project.MainSystem;
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.PlayerOrganization;
@@ -15,8 +15,8 @@ import Project.Role.PlayerRole;
 import Project.Role.Role;
 import Project.Role.CustomerRole;
 import Project.UserAccount.UserAccount;
-import Project.Customer.Customer;
-import Project.Player.Player;
+import business.Customer.Customer;
+import business.Player.Player;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

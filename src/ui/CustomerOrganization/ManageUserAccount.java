@@ -8,14 +8,14 @@ package ui.CustomerOrganization;
 
 
 import Project.MainSystem;
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.CustomerOrganization;
 import Project.Role.Role;
 import Project.Role.CustomerRole;
 import Project.UserAccount.UserAccount;
-import Project.Customer.Customer;
+import business.Customer.Customer;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

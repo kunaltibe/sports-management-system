@@ -6,7 +6,7 @@
 package ui.PhysicianEnterprise;
 
 
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Organization.Organization;
 import Project.Organization.OrganizationDirectory;
 import Project.Organization.PhysicianOrganization;

@@ -13,7 +13,7 @@ import Project.Organization.EventMakerOrganization;
 import Project.Organization.Organization;
 import Project.Organization.CustomerOrganization;
 import Project.UserAccount.UserAccount;
-import Project.Customer.Customer;
+import business.Customer.Customer;
 import Project.WorkQueue.SchedulerWorkRequest;
 import Project.WorkQueue.PlayerWorkRequest;
 import Project.WorkQueue.WorkRequestQueue;

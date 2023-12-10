@@ -7,7 +7,7 @@ package ui.CommunityEnterprise;
 
 
 import Project.MainSystem;
-import Project.Person.Person;
+import business.Person.Person;
 import Project.Enterprise.Enterprise;
 import Project.Organization.Organization;
 import Project.Organization.EventMakerOrganization;
@@ -19,7 +19,7 @@ import Project.Role.EventMakerAdminRole;
 import Project.Role.PlayerAdminRole;
 import Project.Role.CustomerAdminRole;
 import Project.UserAccount.UserAccount;
-import Project.Customer.Customer;
+import business.Customer.Customer;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
