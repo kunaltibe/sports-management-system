@@ -6,7 +6,7 @@ package business.Person;
 
 /**
  *
- * @author prath
+ * @author sangram
  */
 public class Person {
     

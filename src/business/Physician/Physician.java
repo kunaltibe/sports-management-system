@@ -7,7 +7,7 @@ package business.Physician;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class Physician {
     private String doctorName;
