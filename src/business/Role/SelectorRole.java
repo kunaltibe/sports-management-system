@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class SelectorRole extends Role{
     //overriding main panel with fireman work area whenever fireman role is called

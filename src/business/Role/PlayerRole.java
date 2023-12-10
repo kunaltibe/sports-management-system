@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class PlayerRole extends Role{
     //overriding main panel with victim work area whenever victim role is called

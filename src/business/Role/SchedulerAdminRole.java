@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class SchedulerAdminRole extends Role{
     //overriding main panel with NGO admin work area whenever NGO admin role is called

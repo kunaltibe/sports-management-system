@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class SelectorAdminRole extends Role{
     //overriding main panel with fireman admin work area whenever fireman admin role is called

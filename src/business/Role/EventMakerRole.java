@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class EventMakerRole extends Role{
  

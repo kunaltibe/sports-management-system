@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vidis
+ * @author sangram
  */
 public class PlayerAdminRole extends Role{
     //overriding main panel with victim admin work area whenever victim admin role is called
