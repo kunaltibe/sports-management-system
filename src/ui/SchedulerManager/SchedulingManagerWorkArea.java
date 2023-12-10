@@ -5,13 +5,13 @@
  */
 package ui.SchedulerManager;
 
-import Project.MainSystem;
-import Project.Enterprise.Enterprise;
-import Project.Organization.Organization;
-import Project.UserAccount.UserAccount;
-import Project.WorkQueue.SchedulerWorkRequest;
-import Project.WorkQueue.PlayerWorkRequest;
-import Project.WorkQueue.WorkRequest;
+import business.MainSystem;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.SchedulerWorkRequest;
+import business.WorkQueue.PlayerWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.text.ParseException;
@@ -31,7 +31,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author prath
+ * @author kunaltibe
  */
 public class SchedulingManagerWorkArea extends javax.swing.JPanel {
 
