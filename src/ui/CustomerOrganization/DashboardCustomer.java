@@ -350,8 +350,8 @@ public class DashboardCustomer extends javax.swing.JPanel {
     final String PASSSWORD = "bvupdgfnsuoiquhu";  //Password of the Goole(gmail) account
     final String FROM_ADDRESS = "alibaugboiz@gmail.com";  //From addresss
     
-    createAndSendEmail(txtEmail.getText(), "Test email subject",
-      "Congratulations !!! \nThis is test email sent by java class.");
+    createAndSendEmail(txtEmail.getText(), "Ticket Booking",
+      "Congratulations !!! \nYour Tickets are booked");
         
     txtTitle.setText("");
     txtDesc.setText("");

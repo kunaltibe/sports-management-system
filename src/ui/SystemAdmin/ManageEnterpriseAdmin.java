@@ -137,7 +137,7 @@ public class ManageEnterpriseAdmin extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Country", "Enterpirse", "Username"
+                "Organization", "Enterprise", "Username"
             }
         ) {
             boolean[] canEdit = new boolean [] {

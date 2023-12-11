@@ -141,8 +141,8 @@
                 </Property>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="3" rowCount="0">
-                    <Column editable="false" title="Country" type="java.lang.Object"/>
-                    <Column editable="true" title="Enterpirse" type="java.lang.Object"/>
+                    <Column editable="false" title="Organization" type="java.lang.Object"/>
+                    <Column editable="true" title="Enterprise" type="java.lang.Object"/>
                     <Column editable="true" title="Username" type="java.lang.Object"/>
                   </Table>
                 </Property>
