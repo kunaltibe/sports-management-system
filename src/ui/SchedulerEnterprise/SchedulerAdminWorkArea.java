@@ -51,6 +51,7 @@ public class SchedulerAdminWorkArea extends javax.swing.JPanel {
         btnManageOrganization = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
         jPanel2.setBackground(new java.awt.Color(51, 51, 255));
 
@@ -155,7 +156,7 @@ public class SchedulerAdminWorkArea extends javax.swing.JPanel {
             .addGap(0, 1503, Short.MAX_VALUE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1503, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(

@@ -89,6 +89,7 @@ public class SelectorWorkArea extends javax.swing.JPanel {
         btnReject = new javax.swing.JButton();
 
         jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setPreferredSize(new java.awt.Dimension(1500, 650));
 
         jPanel3.setBackground(new java.awt.Color(51, 51, 255));
 
