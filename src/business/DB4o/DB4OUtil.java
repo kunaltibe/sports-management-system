@@ -65,7 +65,7 @@ public class DB4OUtil {
         ObjectContainer conn = createConnection();
         
         ObjectSet<MainSystem> systems = conn.query(MainSystem.class);
-        System.out.println("Connection Successfull");
+        System.out.println("Connection Successful");
         MainSystem system;
         if (systems.size() == 0){
             system = SystemConfiguration.configureSystem(); 

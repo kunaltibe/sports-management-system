@@ -35,9 +35,9 @@ public class LandingJFrame extends javax.swing.JFrame {
         setExtendedState(MAXIMIZED_BOTH);
         initComponents();
         
-      //ecosystem=db4outil.retrieveSystem();
+      ecosystem=db4outil.retrieveSystem();
 
-          ecosystem = SystemConfiguration.configureSystem(); 
+          //ecosystem = SystemConfiguration.configureSystem(); 
           MainSystem.setInstance(ecosystem);
     }
 
