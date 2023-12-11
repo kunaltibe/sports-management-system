@@ -98,7 +98,6 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
         txtAge = new javax.swing.JTextField();
         txtCountry = new javax.swing.JTextField();
         ageValidation = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         pValidation = new javax.swing.JLabel();
         cValidation = new javax.swing.JLabel();
         sValidation = new javax.swing.JLabel();
@@ -180,15 +179,6 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
 
         ageValidation.setForeground(new java.awt.Color(255, 0, 51));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/EventSeekerWorkArea/map.png"))); // NOI18N
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
         pValidation.setForeground(new java.awt.Color(255, 0, 51));
 
         cValidation.setForeground(new java.awt.Color(255, 0, 51));
@@ -222,10 +212,7 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
                                 .addComponent(lbl4, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(txtCountry, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(txtCountry, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(ageValidation, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(cValidation, javax.swing.GroupLayout.PREFERRED_SIZE, 358, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(0, 0, Short.MAX_VALUE))
@@ -240,9 +227,7 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(57, 57, 57)
-                        .addComponent(ageValidation, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(ageValidation, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -387,23 +372,6 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_btnPostActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        GoogleMapsViewer gmv=new GoogleMapsViewer();
-        JFrame mapsPanel = new JFrame();
-        mapsPanel.setBounds(10,10,700,600);
-        mapsPanel.setTitle("Google Maps");
-        mapsPanel.setResizable(false);
-
-        gmv.setSize(mapsPanel.getSize());
-        mapsPanel.add(gmv);
-        System.out.println();
-        gmv.loadMap("html/maps.html");
-
-        mapsPanel.setVisible(true);
-
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void txtAgeKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtAgeKeyReleased
         // TODO add your handling code here:
      
@@ -415,7 +383,6 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
     private javax.swing.JLabel ageValidation;
     private javax.swing.JButton btnPost;
     private javax.swing.JLabel cValidation;
-    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;

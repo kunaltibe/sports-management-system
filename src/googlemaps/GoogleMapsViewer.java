@@ -24,40 +24,40 @@ import javafx.scene.web.WebView;
  */
 public class GoogleMapsViewer extends javafx.embed.swing.JFXPanel{
 
-    private final ArrayList<Marker> markers = new ArrayList<>();
-    private WebEngine engine = null;
-    private WebView webView = null;
-    private final Set<Point2D> coordinateSet = new HashSet<>();
-    private final Random random = new Random();
-  
+//    private final ArrayList<Marker> markers = new ArrayList<>();
+//    private WebEngine engine = null;
+//    private WebView webView = null;
+//    private final Set<Point2D> coordinateSet = new HashSet<>();
+//    private final Random random = new Random();
+//  
+//
+//    public void loadMap(String mapLocation) {
+//        Platform.runLater(() -> {
+//            webView = new WebView();
+//            engine = webView.getEngine();
+//            engine.setJavaScriptEnabled(true);
+//            setScene(new Scene(webView));
+//            File f = new File(getClass().getClassLoader().getResource(mapLocation).getFile());
+//            engine.load(f.toURI().toString());
+//        });
+//
+  //}
 
-    public void loadMap(String mapLocation) {
-        Platform.runLater(() -> {
-            webView = new WebView();
-            engine = webView.getEngine();
-            engine.setJavaScriptEnabled(true);
-            setScene(new Scene(webView));
-            File f = new File(getClass().getClassLoader().getResource(mapLocation).getFile());
-            engine.load(f.toURI().toString());
-        });
 
-    }
-
-
-    public void addMarker(Marker marker) {
-
-        Platform.runLater(() -> {
-            engine.executeScript("addMarker(" + marker.getLat() + "," + marker.getLng() + ",'" + marker.getLabel() + "','" + marker.getInfo() + "'" + ")");
-        });
-    }
-    
-    
-
-    /**
-     * @return the coordinateSet
-     */
-    public Set<Point2D> getCoordinateSet() {
-        return coordinateSet;
-    }
+//    public void addMarker(Marker marker) {
+//
+//        Platform.runLater(() -> {
+//            engine.executeScript("addMarker(" + marker.getLat() + "," + marker.getLng() + ",'" + marker.getLabel() + "','" + marker.getInfo() + "'" + ")");
+//        });
+//    }
+//    
+//    
+//
+//    /**
+//     * @return the coordinateSet
+//     */
+//    public Set<Point2D> getCoordinateSet() {
+//        return coordinateSet;
+//    }
 
 }
