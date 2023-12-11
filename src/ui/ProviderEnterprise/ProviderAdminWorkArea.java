@@ -53,14 +53,14 @@ public class ProviderAdminWorkArea extends javax.swing.JPanel {
         btnManageOrganization = new javax.swing.JButton();
         lbl3 = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setToolTipText("");
 
+        jLabel1.setBackground(new java.awt.Color(153, 153, 153));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Requirements Provider Work Area");
 
@@ -68,10 +68,9 @@ public class ProviderAdminWorkArea extends javax.swing.JPanel {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(395, 395, 395))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1501, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -148,7 +147,7 @@ public class ProviderAdminWorkArea extends javax.swing.JPanel {
                             .addComponent(btnManageEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnManageUserAccount, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnManageOrganization, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(50, 50, 50))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -173,8 +172,8 @@ public class ProviderAdminWorkArea extends javax.swing.JPanel {
                 .addGap(40, 40, 40)
                 .addComponent(lblT)
                 .addGap(50, 50, 50)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(81, 81, 81))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -125,13 +125,12 @@ public class DashboardCustomer extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         txtEmail = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(243, 235, 255));
+        setBackground(new java.awt.Color(255, 153, 51));
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Customer Dashboard");
 

@@ -35,10 +35,9 @@ public class LandingJFrame extends javax.swing.JFrame {
         setExtendedState(MAXIMIZED_BOTH);
         initComponents();
         
-      ecosystem=db4outil.retrieveSystem();
-
-          //ecosystem = SystemConfiguration.configureSystem(); 
-          MainSystem.setInstance(ecosystem);
+      
+        ecosystem=db4outil.retrieveSystem();
+        MainSystem.setInstance(ecosystem);
     }
 
     /**
@@ -71,9 +70,8 @@ public class LandingJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(0, 0));
-        setPreferredSize(new java.awt.Dimension(1500, 881));
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         jPanel1.setForeground(new java.awt.Color(204, 204, 204));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 750));
 
@@ -83,13 +81,13 @@ public class LandingJFrame extends javax.swing.JFrame {
         jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
         jSplitPane1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        sidePane.setBackground(new java.awt.Color(153, 255, 255));
-        sidePane.setForeground(new java.awt.Color(153, 255, 255));
+        sidePane.setBackground(new java.awt.Color(153, 153, 153));
+        sidePane.setForeground(new java.awt.Color(153, 153, 153));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
+        lblTitle.setBackground(new java.awt.Color(0, 0, 0));
         lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("SPORTS MANAGEMENT SYSTEM");
 
@@ -104,10 +102,10 @@ public class LandingJFrame extends javax.swing.JFrame {
             .addComponent(lblTitle, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
         );
 
-        jPanel4.setBackground(new java.awt.Color(153, 255, 255));
+        jPanel4.setBackground(new java.awt.Color(153, 153, 153));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 255, 255)), "", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Segoe UI", 0, 14), new java.awt.Color(255, 255, 255))); // NOI18N
 
-        txtUsername.setBackground(new java.awt.Color(229, 207, 239));
+        txtUsername.setBackground(new java.awt.Color(255, 153, 51));
         txtUsername.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         txtUsername.setForeground(new java.awt.Color(51, 51, 51));
         txtUsername.addActionListener(new java.awt.event.ActionListener() {
@@ -141,14 +139,12 @@ public class LandingJFrame extends javax.swing.JFrame {
         });
 
         lblPassword.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        lblPassword.setForeground(new java.awt.Color(0, 0, 153));
         lblPassword.setText("Password");
 
         lblUserName.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
-        lblUserName.setForeground(new java.awt.Color(0, 0, 204));
         lblUserName.setText("Username");
 
-        txtPassword.setBackground(new java.awt.Color(229, 207, 239));
+        txtPassword.setBackground(new java.awt.Color(255, 153, 51));
         txtPassword.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);

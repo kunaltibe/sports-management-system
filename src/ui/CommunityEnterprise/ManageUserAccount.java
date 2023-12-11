@@ -119,12 +119,11 @@ public class ManageUserAccount extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Manage Organization");
 
@@ -294,19 +293,15 @@ public class ManageUserAccount extends javax.swing.JPanel {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(40, 40, 40)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(40, 40, 40)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(btnBack)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE))
-                        .addContainerGap())))
+                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnBack))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

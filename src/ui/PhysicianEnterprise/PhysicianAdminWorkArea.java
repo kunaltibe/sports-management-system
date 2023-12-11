@@ -52,15 +52,14 @@ public class PhysicianAdminWorkArea extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setToolTipText("");
         jPanel2.setPreferredSize(new java.awt.Dimension(650, 43));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Physician Enterprise");
         lblT.setPreferredSize(new java.awt.Dimension(1500, 43));

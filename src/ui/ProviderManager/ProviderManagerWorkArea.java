@@ -51,14 +51,13 @@ public class ProviderManagerWorkArea extends javax.swing.JPanel {
         btnManageUserAccount = new javax.swing.JButton();
         lbl2 = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setToolTipText("");
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Requirements Provider Work Area");
 
@@ -66,10 +65,7 @@ public class ProviderManagerWorkArea extends javax.swing.JPanel {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(368, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(503, 503, 503))
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -141,7 +137,7 @@ public class ProviderManagerWorkArea extends javax.swing.JPanel {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(135, 135, 135)
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(372, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

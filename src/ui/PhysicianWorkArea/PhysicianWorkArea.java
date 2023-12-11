@@ -92,13 +92,12 @@ public class PhysicianWorkArea extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
         jPanel2.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Physician Work Area");
 
@@ -163,8 +162,7 @@ public class PhysicianWorkArea extends javax.swing.JPanel {
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lbl1, javax.swing.GroupLayout.PREFERRED_SIZE, 864, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0))
+                .addComponent(lbl1, javax.swing.GroupLayout.PREFERRED_SIZE, 864, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()

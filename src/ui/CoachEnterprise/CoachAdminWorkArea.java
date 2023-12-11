@@ -50,14 +50,13 @@ public class CoachAdminWorkArea extends javax.swing.JPanel {
         btnManageUserAccount = new javax.swing.JButton();
         btnManageOrganization = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setToolTipText("");
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Coach Department");
 
@@ -74,13 +73,13 @@ public class CoachAdminWorkArea extends javax.swing.JPanel {
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
         );
 
-        lblT.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblT.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
         lblT.setText("Welcome Coach!");
 
         jPanel3.setOpaque(false);
         jPanel3.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        btnManageEmployee.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        btnManageEmployee.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         btnManageEmployee.setText("Add ");
         btnManageEmployee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,7 +87,7 @@ public class CoachAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
-        btnManageUserAccount.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        btnManageUserAccount.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         btnManageUserAccount.setText(" User Account");
         btnManageUserAccount.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,7 +95,7 @@ public class CoachAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
-        btnManageOrganization.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        btnManageOrganization.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         btnManageOrganization.setText("Organization");
         btnManageOrganization.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

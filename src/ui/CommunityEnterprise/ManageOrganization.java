@@ -80,12 +80,11 @@ public class ManageOrganization extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lblTtitle.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblTtitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTtitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTtitle.setText("Manage Organization");
 
@@ -207,9 +206,8 @@ public class ManageOrganization extends javax.swing.JPanel {
                         .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(527, 527, 527)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

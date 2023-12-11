@@ -89,13 +89,12 @@ public class ManageEmployee extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
         jPanel2.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Manage Employee");
 

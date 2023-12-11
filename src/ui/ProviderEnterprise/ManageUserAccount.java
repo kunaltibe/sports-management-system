@@ -109,12 +109,11 @@ public class ManageUserAccount extends javax.swing.JPanel {
         comboRole = new javax.swing.JComboBox();
         btnBack = new javax.swing.JButton();
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Manage Organization");
 

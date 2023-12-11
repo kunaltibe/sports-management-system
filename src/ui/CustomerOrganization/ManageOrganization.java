@@ -78,12 +78,11 @@ public class ManageOrganization extends javax.swing.JPanel {
 
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 51));
 
-        jPanel3.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         lbl1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lbl1.setForeground(new java.awt.Color(255, 255, 255));
         lbl1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl1.setText("Manage Organization");
 

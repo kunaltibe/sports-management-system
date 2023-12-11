@@ -112,13 +112,12 @@ public class EventMakerWorkArea extends javax.swing.JPanel {
         btnSelector = new javax.swing.JButton();
         btnScheduler = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(243, 235, 255));
+        setBackground(new java.awt.Color(255, 153, 51));
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("Tournament Manager Work Area");
 
@@ -381,7 +380,7 @@ public class EventMakerWorkArea extends javax.swing.JPanel {
                             .addComponent(btnAssignTo, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnView, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnComplete, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(156, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

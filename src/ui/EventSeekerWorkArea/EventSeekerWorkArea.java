@@ -103,14 +103,14 @@ public class EventSeekerWorkArea extends javax.swing.JPanel {
         cValidation = new javax.swing.JLabel();
         sValidation = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(243, 235, 255));
+        setBackground(new java.awt.Color(255, 153, 51));
         setMaximumSize(new java.awt.Dimension(1500, 650));
         setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
+        lblT.setBackground(new java.awt.Color(255, 255, 255));
         lblT.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        lblT.setForeground(new java.awt.Color(255, 255, 255));
         lblT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblT.setText("New Player Work Area");
 

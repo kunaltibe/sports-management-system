@@ -46,13 +46,12 @@ public class EventSeekerAdminWorkArea extends javax.swing.JPanel {
         btnManageEmployee = new javax.swing.JButton();
         btnManageUserAccount = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(243, 235, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
         jPanel1.setPreferredSize(new java.awt.Dimension(1500, 650));
 
-        jPanel2.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Player Organization");
 
